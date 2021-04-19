@@ -1,5 +1,9 @@
 ul {
+  background: rgb(247, 247, 247);
   text-align: center;
-  background-color: yellow;
   width: 100%;
+}
+
+section {
+  height: 1000px;
 }
