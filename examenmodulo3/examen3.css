@@ -1,3 +1,11 @@
+#cabeza {
+  background: gray;
+}
+
+nav {
+  background: gray;
+}
+
 ul {
   background: rgb(247, 247, 247);
   text-align: center;
