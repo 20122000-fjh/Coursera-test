@@ -4,20 +4,19 @@
 // PASO 6: Envuelva todo el contenido de SpeakGoodBye.js dentro de un IIFE
 // Ver Clase 52, parte 2
 
-
 // PASO 7: Cree un objeto, llamado 'byeSpeaker' al que adjuntará
 // el método "speak" y que expondrá al contexto global
 // Ver Clase 52, parte 1
 // var byeSpeaker =
 
 // NO adjunte la variable speakWord al objeto 'byeSpeaker'.
-var  speakWord  =  "Adiós" ;
+var speakWord = "Good Bye";
 
 // PASO 8: Vuelva a escribir la función 'hablar' de modo que esté adjunta a la
 // objeto byeSpeaker en lugar de ser una función independiente.
 // Ver Clase 52, parte 2
-función  hablar ( nombre )  {
-  consola . log ( speakWord  +  ""  +  nombre ) ;
+function speak(name) {
+  console.log(speakWord + "" + name);
 }
 
 // PASO 9: Exponga el objeto 'byeSpeaker' al alcance global. Nombralo
