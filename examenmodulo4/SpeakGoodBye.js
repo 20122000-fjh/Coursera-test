@@ -16,11 +16,11 @@
   // objeto byeSpeaker en lugar de ser una función independiente.
   // Ver Clase 52, parte 2
   byeSpeaker.speak = function speak(name) {
-    console.log(speakWord + "" + name);
+    console.log(speakWord + " " + name);
   };
 
   function speak(name) {
-    console.log(speakWord + "" + name);
+    console.log(speakWord + " " + name);
   }
 
   // PASO 9: Exponga el objeto 'byeSpeaker' al alcance global. Nombralo
