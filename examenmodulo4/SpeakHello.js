@@ -11,7 +11,6 @@
     console.log(speakWord + " " + name);
   };
 
-  window.helloSpeaker = helloSpeaker;
   // NO adjunte la variable speakWord al objeto 'helloSpeaker'.
 
   var speakWord = "Hello";
@@ -22,10 +21,11 @@
   function speak(name) {
     console.log(speakWord + " " + name);
   }
-})(window);
 
-// PASO 5: Exponga el objeto 'helloSpeaker' al alcance global. Nombralo
-// 'helloSpeaker' también en el ámbito global.
-// Ver Clase 52, parte 2
-// (Tenga en cuenta que el paso 6 se realizará en el archivo SpeakGoodBye.js).
-// xxxx.xxxx = helloSpeaker;
+  // PASO 5: Exponga el objeto 'helloSpeaker' al alcance global. Nombralo
+  // 'helloSpeaker' también en el ámbito global.
+  // Ver Clase 52, parte 2
+  // (Tenga en cuenta que el paso 6 se realizará en el archivo SpeakGoodBye.js).
+  // xxxx.xxxx = helloSpeaker;
+  window.helloSpeaker = helloSpeaker;
+})(window);

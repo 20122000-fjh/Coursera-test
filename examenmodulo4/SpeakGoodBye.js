@@ -19,13 +19,12 @@
     console.log(speakWord + "" + name);
   };
 
-  window.byeSpeaker = byeSpeaker;
-
   function speak(name) {
     console.log(speakWord + "" + name);
   }
-})(window);
 
-// PASO 9: Exponga el objeto 'byeSpeaker' al alcance global. Nombralo
-// 'byeSpeaker' también en el ámbito global.
-// xxxx.xxxx = byeSpeaker;
+  // PASO 9: Exponga el objeto 'byeSpeaker' al alcance global. Nombralo
+  // 'byeSpeaker' también en el ámbito global.
+  // xxxx.xxxx = byeSpeaker;
+  window.byeSpeaker = byeSpeaker;
+})(window);
